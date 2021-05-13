@@ -1,0 +1,9 @@
+service getgameserver /vendor/bin/getgameserver
+    class main
+    user system
+    group system
+    
+    capabilities NET_ADMIN NET_RAW
+
+    
+

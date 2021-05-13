@@ -1,0 +1,40 @@
+cc_library_shared {
+    name: "libknox_keyutils",
+    
+    srcs: [
+        "knox_keyutils.c",
+    ],
+
+    cflags: [
+        "-O2",
+        "-fomit-frame-pointer",
+    ],
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
